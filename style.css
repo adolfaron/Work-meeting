@@ -1,12 +1,42 @@
+body{
+    background-color: white;
+    color: #660000;
+}
 #main{
-    background-color: #E0E0E0     ;
-    width: 900px;
-    margin: 0 auto;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px gray;
+    width: 700px;
+    background-color: #E0E0E0;
+}
+#kép{
+    text-align: center;
+    display: flex;
+    margin-inline: 170px;
+}
+#main img{
+    width: 100px;
     padding: 10px;
 }
-img{
-    width: 100px;
+h1:nth-child(2){
     text-align: center;
+}
+h1:nth-child(3){
+    text-align: center;
+}
+p{
+    padding-inline: 30px;
+}
+h2:last-child{
+    text-align: center;
+}
+#kép1{
+    float: left;
+    position: absolute;
+    width: 60px;
+    padding-top: 80px;
+}
+#kép2{
+    margin-left: 600px;
+    margin-right: 0;
+    position: absolute;
+    width: 60px;
+    padding-top: 80px;
 }
